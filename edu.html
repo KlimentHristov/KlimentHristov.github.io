@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kliment Hristov Experience</title>
+
+</head>
+
+<body class="w3-light-gray">
+
+    <nav class="w3-bar w3-block w3-padding">
+        <a href="index.html" class="w3-bar-item w3-button w3-border-right">HOME</a>
+        <a href="work.html" class="w3-bar-item w3-button w3-border-right">WORK</a>
+        <a href="edu.html" class="w3-bar-item w3-button w3-border-right">EDU</a>
+    </nav>
+
+    <!-- EDUCATION Section -->
+    <section class="Edu w3-auto">
+        <div class="headEdu w3-center">EDUCATION</div>
+
+        <div class="w3-row-padding">
+            
+            <div class="University w3-padding w3-white w3-card-2 w3-center" id="VTU">
+                <h2 class="w3-border-bottom"><b> {{School}}</b></h2>
+                
+                <div class="headSec">
+                    <h4><b>{{Spec}}</b><h4>
+                        <h6>Master degree</h6>
+                    <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date}}</h6>
+
+                </div>
+                <div class="headSec">
+                    <h4><b>{{Spec2}}</b><h4>
+                    <h6>Bachelor degree</h6>
+                    <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date2}}</h6>
+                </div>
+                <h6 class="w3-opacity"><a href="https://uni-vt.bg/">{{Website}}</a></h6>
+            </div>
+            <div class="Financial w3-padding w3-white w3-card-2 w3-row-padding" id="Trade">
+                <h2 class="w3-center w3-border-bottom"><b> {{School}}</b></h2>
+                
+                <div class="w3-half">
+                    <div class="headSec">
+                        <h4><b>{{Spec}}</b><h4>
+                        <h6 class="w3-opacity"><a href="https://www.youtube.com/channel/UCLZUqfJ-yDDbYhLnP4-R2Bw">{{Website}}</a></h6>
+                        <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date}}</h6>
+                        <dl>
+                            <dt>
+                                {{Program}}
+                            </dt>
+                            <dd>
+                                {{Desc}}
+                            </dd>
+                        </dl>   
+                                 
+                    </div>
+                </div>
+                <div class="w3-half">
+                    <div class="headSec">
+                        <h4><b>{{Spec2}}</b><h4>
+                        <h6 class="w3-opacity"><a href="https://www.trendline.com">{{Website2}}</a></h6>
+                        <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date2}}</h6>
+                        <dl>
+                            <dt>
+                                {{Program2}}
+                            </dt>
+                            <dd>
+                                {{Desc2}}
+                            </dd>
+                        </dl>            
+                    </div>
+                </div>
+            </div>
+            <div class="IT w3-padding  w3-white w3-card-2 w3-row-padding" id="IT">
+                <h2 class="w3-center w3-border-bottom"><b> {{School}}</b></h2>
+                
+                <div class="w3-half">
+                    <div class="headSec">
+                        <h4><b>{{Spec}}</b><h4>
+                        <h6 class="w3-opacity"><a href="https://www.udemy.com">{{Website}}</a></h6>
+                        <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date}}</h6>
+                        <dl>
+                            <dt>
+                                {{Program}}
+                            </dt>
+                            <dd>
+                                {{Desc}}
+                            </dd>
+                        </dl>      
+                    </div>
+                </div>
+                <div class="w3-half">
+                    <div class="headSec">
+                        <h4><b>{{Spec2}}</b><h4>
+                        <h6 class="w3-opacity"><a href="https://www.w3schools.com">{{Website2}}</a></h6>
+                        <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date2}}</h6>
+                        <dl>
+                            <dt>
+                                {{Program2}}
+                            </dt>
+                            <dd>
+                                {{Desc2}}
+                            </dd>
+                        </dl>      
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        
+    </section>
+
+    <script>
+
+        var myObject01 = {
+
+            "Spec": "Marketing",
+
+            "School": "University of Veliko Tarnovo",
+
+            "Date": "2012 - 2013",
+
+            "Website": "http://uni-vt.bg",
+            
+            "Spec2": "Management",
+
+            "Date2": "2009 - 2012",
+        };
+        var myObject02 = {
+
+            "Spec": "FX Trader",
+            "School": "Financial Trading",
+            "Date": "2019",
+            "Website": "Fibo channel",
+            "Program": "Trading education program include:",
+            "Desc": "Set goals, Define risk levels, Trade preprartion, Trends, Open and Close positions, Entry Rules for deals",
+
+            "Spec2": "Risk Points",
+            "School2": "Money Management",
+            "Date2": "2019",
+            "Website2": "Trendline",
+            "Program2": "How to define risk factors:",
+            "Desc2": "Don't spend more than you make, Always plan for the future, Help your money grow",
+
+            };
+        var myObject03 = {
+
+        "Spec": "Python Bootcamp",
+        "School": "Online Courses",
+        "Date": "2021",
+        "Website": "Udemy.com",
+        "Program": "Fundamentals of Python language:",
+        "Desc": "Methods, Functions, Data Structures, Generators, Web Scraping, Decorators, Deployment, SOLID, Design Patterns",
+
+        "Spec2": "HTML / CSS / RESPONSIVE",
+        "Date2": "2020",
+        "Website2": "W3schools.com",
+        "Program2": "How to create a websites:",
+        "Desc2": "Tags, Selectors, Sections, Semantics, Rules, Menus, Formatting, Styles, Frameworks",
+
+        };
+
+
+        w3.displayObject("VTU", myObject01);
+        w3.displayObject("Trade", myObject02);
+        w3.displayObject("IT", myObject03);
+    </script>
+
+</body>
+
+</html>

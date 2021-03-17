@@ -1,0 +1,46 @@
+.Header {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.IntroText p {
+    font-size: 18px;
+}
+.Summary {
+    font-size: 21px;
+}
+.Contact {
+    margin-bottom: 60px;
+}
+.Contact table {
+    font-size: 18px;
+}
+.Reference h1{
+    margin-left:16px;
+    margin-right:16px;
+}
+
+
+.Exp, .Edu {
+    margin-top: 30px;
+}
+.CCB, .UBB, .HireWeb {
+    margin-bottom: 50px;
+    background-color: white;
+}
+.headExp, .headEdu{
+    font-size: 50px;
+    margin-bottom:50px;
+}
+.headSec {
+    margin-top:35px;
+    margin-bottom:20px;
+}
+.Financial {
+    margin-top: 30px;
+}
+.Financial, .University {
+    margin-bottom:50px;
+}
+nav a {
+    font-size: 30px;
+}

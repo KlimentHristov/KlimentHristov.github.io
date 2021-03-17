@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kliment Hristov Experience</title>
+
+</head>
+
+<body class="w3-light-gray">
+
+    <nav class="w3-bar w3-block w3-padding">
+        <a href="index.html" class="w3-bar-item w3-button w3-border-right">HOME</a>
+        <a href="work.html" class="w3-bar-item w3-button w3-border-right">WORK</a>
+        <a href="edu.html" class="w3-bar-item w3-button w3-border-right">EDU</a>
+    </nav>
+
+    <!-- EXPERIENCE Section -->
+    <section class="Exp w3-auto w3-row">
+        <div class="headExp w3-center">EXPERIENCE</div>
+
+        <div class="w3-row-padding">
+
+            <div class="HireWeb w3-border w3-border-black w3-padding w3-center" id="Three">
+                <h3 class="w3-black"><b><i style="font-size:23px" class="fa">&#xf0eb;</i> {{Company}}</b></h3>
+                <div class="headSec">
+                    <h4><b>{{Position}}</b><h4>
+                    <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date}} <b>Ongoing</b></h6>
+                    <h6 class="w3-opacity"><a href="https://hirewebsolutions.com/">{{Website}}</a></h6>
+                </div>
+                <ul class="w3-ul">
+                    <li>{{Text}}</li>
+                    <li>{{Desc1}}</li>
+                    <li>{{Desc2}}</li>
+                    <li>{{Desc3}}</li>
+                </ul>
+            </div>
+
+            <div class="CCB w3-border w3-border-indigo w3-padding w3-center" id="One">
+                <h3 class="w3-indigo w3-center"><b><i style="font-size:23px" class="fa">&#xf19c;</i> {{Company}}</b></h3>
+                <div class="headSec">
+                    <h4><b>{{Position}}</b></h4>
+                    <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date}} <b>Ongoing</b></h6>
+                    <h6 class="w3-opacity"><a href="http://ccbank.bg">{{Website}}</a></h6>
+                </div>
+
+                <ul class="w3-ul">
+                    <li>{{Desc1}}</li>
+                    <li>{{Desc2}}</li>
+                    <li>{{Desc3}}</li>
+                    <li>{{Desc4}}</li>
+                </ul>
+
+
+    
+            </div>
+
+            <div class="UBB w3-border w3-border-blue w3-padding w3-center" id="Two">
+                    <h3 class="w3-blue"><b><i style="font-size:23px" class="fa">&#xf19c;</i> {{Company}}</b></h3>
+                    <div class="headSec">
+                        <h4><b>{{Position}}</b></h4>
+                        <h6><i style="font-size:20px" class="fa">&#xf073;</i> {{Date}}</h6>
+                        <h6 class="w3-opacity"><a href="http://ubb.bg">{{Website}}</a></h6>
+                    </div>
+                    <ul class="w3-ul">
+                        <li>{{Desc1}}</li>
+                        <li>{{Desc2}}</li>
+                        <li>{{Desc3}}</li>
+                        <li>{{Desc4}}</li>
+                    </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <script>
+
+        var myObject01 = {
+
+            "Position": "Credit analyst",
+
+            "Company": "Central Cooperative Bank",
+
+            "Date": "05.10.2018 -",
+
+            "Website": "http://ccbank.bg",
+
+            "Desc1": "Monitoring credit portfolio",
+
+            "Desc2": "Analysis of the client`s creditworthiness",
+
+            "Desc3": "Structuring of credit deals and records",
+
+            "Desc4": "Gave a credit opinion for a deal"
+
+        };
+        var myObject02 = {
+
+            "Position": "Credit consultant",
+
+            "Company": "United Bulgarian Bank",
+
+            "Date": "10.04.2015 - 05.10.2018",
+
+            "Website": "http://ubb.bg",
+
+            "Desc1": "Consulting for credits",
+
+            "Desc2": "Maintain good cutomer relationships",
+
+            "Desc3": "Individual offers for mortgage and customer loans",
+            "Desc4": "Implementation of an investment and insurance plan"
+
+        };
+        var myObject03 = {
+
+            "Position": "Data admin",
+
+            "Company": "Hire Web Solutions",
+
+            "Date": "10.20.2020 -",
+
+            "Website": "https://hirewebsolutions.com/",
+
+            "Text": "Fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data in all apps:",
+
+            "Desc1": "Assist with the creation, deployment and maintenance of databases",
+
+            "Desc2": "Maintaining database services to the required operational levels",
+
+            "Desc3": "Perform regular activities by following internal processes",
+
+            };
+
+        w3.displayObject("One", myObject01);
+        w3.displayObject("Two", myObject02);
+        w3.displayObject("Three", myObject03);
+
+    </script>
+
+</body>
+
+</html>

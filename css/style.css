@@ -8,6 +8,10 @@
 .Summary {
     font-size: 21px;
 }
+.downloadbtn {
+    margin-left:10px;
+    margin-right: 10px
+}
 .Contact {
     margin-bottom: 60px;
 }
@@ -19,13 +23,18 @@
     margin-right:16px;
 }
 
-
+.Skills {
+    margin-top:60px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
 .Exp, .Edu {
     margin-top: 30px;
 }
 .CCB, .UBB, .HireWeb {
     margin-bottom: 50px;
     background-color: white;
+    font-size: 18px;
 }
 .headExp, .headEdu{
     font-size: 50px;
@@ -35,12 +44,25 @@
     margin-top:35px;
     margin-bottom:20px;
 }
-.Financial {
-    margin-top: 30px;
-}
-.Financial, .University {
+
+.Financial, .University, .IT {
     margin-bottom:50px;
+    
 }
 nav a {
-    font-size: 30px;
+    font-size: 25px;
+}
+.tableTools {
+    margin-bottom:20px;
+}
+.tableTech {
+    margin-bottom:50px;
+}
+.PersonalText {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.University{
+    margin-left:8px;
+    margin-right:10px;
 }

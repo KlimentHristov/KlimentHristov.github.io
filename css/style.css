@@ -8,9 +8,8 @@
 .Summary {
     font-size: 21px;
 }
-.downloadbtn {
-    margin-left:10px;
-    margin-right: 10px
+.buttondl {
+	margin-top: 60px;
 }
 .Contact {
     margin-bottom: 60px;
@@ -21,6 +20,9 @@
 .Reference h1{
     margin-left:16px;
     margin-right:16px;
+}
+.Reference {
+	margin-bottom: 30px;
 }
 
 .Skills {
